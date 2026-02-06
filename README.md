@@ -1,0 +1,2 @@
+# Clock-Tree-Synthesis-and-Static-Timing-Analysis-of-Finite-State-Machine-Based-Digital-Circuits
+This repository presents the design and timing analysis of an FSM-based Traffic Light Controller, focusing on Clock Tree Synthesis (CTS) and Static Timing Analysis (STA). It explores clock distribution, skew optimization, setup/hold analysis, critical paths, and timing closure at the gate/transistor level.
