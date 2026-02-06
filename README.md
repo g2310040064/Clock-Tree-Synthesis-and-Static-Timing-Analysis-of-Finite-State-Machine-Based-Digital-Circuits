@@ -30,9 +30,8 @@ Traffic Light Controllers are a practical example of FSMs, coordinating traffic 
 
 ## Tools Used
 
-- HDL Simulation Tools (Verilog/VHDL)
-- EDA Tools for CTS and STA (Synopsys, Cadence, or OpenROAD)
-- Gate/Transistor-level modeling for timing analysis
+- HDL Simulation Tools (Verilog)
+- EDA Tools for CTS and STA (Xilinx Vivado)
 
 ## Conclusion
 
