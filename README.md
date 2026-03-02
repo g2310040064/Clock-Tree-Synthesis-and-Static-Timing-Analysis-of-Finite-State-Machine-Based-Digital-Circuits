@@ -1,10 +1,13 @@
 **Clock Tree Synthesis (CTS) and Static Timing Analysis (STA)**
 This project demonstrates end-to-end FSM design with Clock Tree Synthesis and Static Timing Analysis using Vivado.
+
 **📌 Project Overview**
+
 Traffic Light Controllers are classic examples of Finite State Machines (FSMs) used in real-world embedded and digital systems.
 This project implements an FSM-based Traffic Light Controller using Verilog HDL, followed by Clock Tree Synthesis (CTS) and Static Timing Analysis (STA) to ensure timing correctness in a sequential digital circuit.
 
 The design is verified through functional simulation, synthesized onto an FPGA, and analyzed for timing closure.
+
 **🎯 Objectives**
 
 Design and implement an FSM-based Traffic Light Controller
@@ -18,15 +21,19 @@ Apply Clock Tree Synthesis to balance clock distribution
 Perform Static Timing Analysis to check setup/hold constraints
 
 Achieve full timing closure
+
 **🔁 FSM Design Description**
+
 States and Operation
-State	Description
-S0	Road A Green, Road B Red
-S1	Road A Yellow, Road B Red
-S2	Road A Red, Road B Green
-S3	Road A Red, Road B Yellow
+
+State	          Description
+S0	      Road A Green, Road B Red
+S1	      Road A Yellow, Road B Red
+S2	      Road A Red, Road B Green
+S3	      Road A Red, Road B Yellow
 
 **🧪 Functional Simulation Results**
+
 **RTL Simulation Waveform**
 
 **Analysis**
@@ -62,12 +69,16 @@ I/O Planning:
 <img width="1194" height="646" alt="image" src="https://github.com/user-attachments/assets/74094070-46ef-45b7-980b-e3e78f9b837f" />
 
 **🌳 Clock Tree Synthesis (CTS)**
+
 **Clock Network View**
+
 **Analysis**
+
 CTS performed automatically by Vivado
 Dedicated global clock buffers used
 Balanced clock routing across all flip-flops
 Reduced clock skew and insertion delay
+
 **Static Timing Analysis (STA) Results**
 
 Static Timing Analysis was performed after synthesis and Clock Tree Synthesis to verify that all timing constraints were met for reliable sequential operation.
@@ -77,6 +88,7 @@ Static Timing Analysis was performed after synthesis and Clock Tree Synthesis to
 Setup time ensures that data arrives at the destination flip-flop sufficiently before the active clock edge.
 
 **Setup Time Summary**
+
 Parameter	                    |    Value
 Worst Negative Slack (WNS)	  :    +8.853 ns
 Total Negative Slack (TNS)    :   	0.000 ns
@@ -97,6 +109,7 @@ No setup violations were detected.
 Hold time ensures that data remains stable after the clock edge.
 
 **Hold Time Summary**
+
 Parameter	                    Value
 Worst Hold Slack (WHS)	      +0.211 ns
 Total Hold Slack (THS)	       0.000 ns
@@ -171,6 +184,7 @@ The power analysis was performed on the implemented netlist using Vivado’s Pow
 **Signals:** < 0.001 W (1%)
 
 **Logic:** < 0.001 W (<1%)
+
 <img width="1280" height="415" alt="image" src="https://github.com/user-attachments/assets/6945e9e4-a3cd-4638-a94e-c7646c343eab" />
 
 **Conclusion**
