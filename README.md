@@ -46,6 +46,7 @@ Outputs change only at clock edges
 <img width="1280" height="508" alt="image" src="https://github.com/user-attachments/assets/9e118bb6-7b8a-49a6-989a-8e4612d66a24" />
 
 
+
 **🧩 RTL Schematic View**
 
 **Analysis**
@@ -64,6 +65,7 @@ Optimized logic structure
 Very low resource utilization
 Logic evenly placed across the FPGA
 No placement or routing congestion
+
 FloorPlanning:
 <img width="1110" height="647" alt="image" src="https://github.com/user-attachments/assets/89018d1c-3198-4842-9411-c0d4dfb91c5b" />
 I/O Planning:
@@ -116,17 +118,17 @@ Hold time ensures that data remains stable after the clock edge.
 
 **Hold Time Summary**
 
-Parameter	                    Value
+Parameter	                  |    Value
 
-Worst Hold Slack (WHS)	      +0.211 ns
+Worst Hold Slack (WHS)	    :    +0.211 ns
 
-Total Hold Slack (THS)	       0.000 ns
+Total Hold Slack (THS)	    :    0.000 ns
 
-Number of Failing Endpoints    0
+Number of Failing Endpoints :   0
 
-Total Number of Endpoints	     4
+Total Number of Endpoints	  :   4
 
-Timing Status                  PASS
+Timing Status               :  PASS
 
 **Analysis**
 
