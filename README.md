@@ -45,6 +45,7 @@ Outputs change only at clock edges
 
 <img width="1280" height="508" alt="image" src="https://github.com/user-attachments/assets/9e118bb6-7b8a-49a6-989a-8e4612d66a24" />
 
+
 **🧩 RTL Schematic View**
 
 **Analysis**
@@ -90,10 +91,15 @@ Setup time ensures that data arrives at the destination flip-flop sufficiently b
 **Setup Time Summary**
 
 Parameter	                    |    Value
+
 Worst Negative Slack (WNS)	  :    +8.853 ns
+
 Total Negative Slack (TNS)    :   	0.000 ns
+
 Number of Failing Endpoints   :  	0
+
 Total Number of Endpoints     : 	4
+
 Timing Status                    	PASS
 
 **Analysis**
@@ -111,10 +117,15 @@ Hold time ensures that data remains stable after the clock edge.
 **Hold Time Summary**
 
 Parameter	                    Value
+
 Worst Hold Slack (WHS)	      +0.211 ns
+
 Total Hold Slack (THS)	       0.000 ns
+
 Number of Failing Endpoints    0
+
 Total Number of Endpoints	     4
+
 Timing Status                  PASS
 
 **Analysis**
@@ -131,10 +142,15 @@ Pulse width analysis ensures that the clock high and low durations are sufficien
 
 **Pulse Width Summary**
 Parameter	                               |     Value
+
 Worst Pulse Width Slack (WPWS)	         :   +4.500 ns
+
 Total Pulse Width Negative Slack (TPWS)	 :    0.000 ns
+
 Number of Failing Endpoints	             :    0
+
 Total Number of Endpoints                :   	5
+
 Timing Status                            :	PASS
 
 **Analysis**
